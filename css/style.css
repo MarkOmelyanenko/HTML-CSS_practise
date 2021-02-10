@@ -1,0 +1,88 @@
+a { /*селектор по имени тега*/
+    color: red;
+    font-size: 20px;
+}
+
+div { /*селектор по имени тега*/
+    color: rgba(255, 0, 0, 0.7);
+}
+
+#my_link { /*значение по идентификатору*/
+    color: lime;
+    font-size: 25px;
+}
+
+#test_link { /*значение по идентификатору*/
+    font-size: 30px;
+    color: rgb(223, 0, 223);
+}
+
+.human { /*значение по классу*/
+    color: rgb(136, 255, 0);
+}
+
+.animal {
+    font-size: 50px;
+}
+
+.lion{ /*значение по классу*/
+    color: rgb(255, 123, 0);
+}
+
+.snake {
+    color: green;
+}
+
+.monkey {
+    color: brown;
+}
+
+.dashed {
+    color: #747474;
+    background-color: #E4E4E4;
+    border: 1px dashed;
+    font-size: 20px;
+}
+
+.message {
+    /* margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px; */
+    margin: 15px 15px 0 15px;
+    padding: 5px 0 5px 5px;
+}
+
+.solid {
+    color: #747474;
+    background-color: #E4E4E4;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+.success {
+    background-color: #19A15F;
+    color: #ffffff;
+    border: 1px solid green;
+    font-size: 20px;
+}
+
+.fail {
+    background-color: #D65144;
+    color: #ffffff;
+    border: 1px solid red;
+    font-size: 20px;
+}
+
+.info {
+    background-color: #4B8BF5;
+    color: #ffffff;
+    border: 1px solid blue;
+    font-size: 20px;
+}
+
+.warning {
+    background-color: #FFCE43;
+    color: #000000;
+    border: 1px solid yellow;
+    font-size: 20px;
+}
