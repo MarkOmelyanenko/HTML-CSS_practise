@@ -1,10 +1,22 @@
+body {
+    background-image: url(../img/images.jpg);
+}
+
 a { /*селектор по имени тега*/
     color: red;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.link-to-html-practise {
+    font-size: 25px;
 }
 
 div { /*селектор по имени тега*/
     color: rgba(255, 0, 0, 0.7);
+}
+
+#hello_link {
+    color: rgb(0, 247, 255);
 }
 
 #my_link { /*значение по идентификатору*/
@@ -14,7 +26,11 @@ div { /*селектор по имени тега*/
 
 #test_link { /*значение по идентификатору*/
     font-size: 30px;
-    color: rgb(223, 0, 223);
+    color: rgb(41, 0, 223);
+}
+
+.blue-div {
+    font-size: 20px;
 }
 
 .human { /*значение по классу*/
@@ -52,6 +68,10 @@ div { /*селектор по имени тега*/
     padding: 5px 0 5px 5px;
 }
 
+.message:hover {
+    border: 5px solid rgb(255, 33, 33);
+}
+
 .solid {
     color: #747474;
     background-color: #E4E4E4;
@@ -85,4 +105,60 @@ div { /*селектор по имени тега*/
     color: #000000;
     border: 1px solid yellow;
     font-size: 20px;
+}
+
+#test1 {
+    transform: scale(0.5);
+    transition: 1s all;
+
+    background-color: #4E8DF5;
+    color: #ffffff;
+    padding: 50px;
+    margin: 350px 15px 350px 15px;
+    border: 7px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 7px black;
+    height: 200px;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#test1:hover {
+    transform: rotate(45deg) scale(0.5);
+    background-color:black;
+}
+
+#test2 {
+    background-color: #4E8DF5;
+    color: #ffffff;
+    padding: 15px;
+    margin: 15px;
+    border: 7px solid black;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+#test3 {
+    background-color: #4E8DF5;
+    color: #ffffff;
+    padding: 15px;
+    margin: 15px;
+    border: 7px solid black;
+    border-radius: 10px;
+    opacity: 0.1;
+}
+
+#test4 {
+    background-color: #4E8DF5;
+    color: #ffffff;
+    padding: 15px;
+    margin: 15px;
+    border: 7px solid black;
+    border-radius: 100px;
+    opacity: 0.5;
+}
+
+#test4:hover {
+    opacity: 1;
 }
